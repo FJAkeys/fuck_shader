@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest.unity
+- path: Assets/URP_testbed/testbed_scens.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -15,11 +15,11 @@ D:/20200728/fuck_shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63585
+63033
 Successfully changed project path to: D:/20200728/fuck_shader
 D:/20200728/fuck_shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
 [Subsystems] Discovering subsystems at path D:/unity/2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,562 +36,123 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.1.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002502 seconds.
+Registered in 0.003042 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
+- Completed reload, in  1.042 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000867 seconds.
+Registered in 0.001257 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  1.219 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 212.2 MB.
+System memory in use before: 212.7 MB.
+System memory in use after: 212.8 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2936.
-Total: 2.363900 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.165500 ms MarkObjects: 1.901200 ms  DeleteObjects: 0.065900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/DramaticSkies_SkyboxCollection/LensFlares/50mmZoomCustom.flare
-  artifactKey: Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/LensFlares/50mmZoomCustom.flare using Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34226947805c973a9065e8e890aa92d7') in 0.039408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/LensFlares
-  artifactKey: Guid(d2195709ad22898419743e4434f73f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/LensFlares using Guid(d2195709ad22898419743e4434f73f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95f7243fd92c961b10aa4cf4d4592f6') in 0.002429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/LensFlares/Flare50mm.psd
-  artifactKey: Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/LensFlares/Flare50mm.psd using Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ddd578f3cd628663d3f7270abfe50') in 0.048291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/LensFlares/50mmZoomCustomNight.flare
-  artifactKey: Guid(8f07e68e5f8bc53409acb83ede2c8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/LensFlares/50mmZoomCustomNight.flare using Guid(8f07e68e5f8bc53409acb83ede2c8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e455a0d0d7b4fd1037b2e7a506a645') in 0.002793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.961630 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/DramaticSkies_SkyboxCollection_ReadMe.pdf
-  artifactKey: Guid(2d9e5fb2ca7a7454db1d3663304719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/DramaticSkies_SkyboxCollection_ReadMe.pdf using Guid(2d9e5fb2ca7a7454db1d3663304719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f90d361cf911387c17b55a3d1478e') in 0.014540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.060984 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/ExampleScene_Day.unity
-  artifactKey: Guid(44369ae63d6995c47a91064a65452fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/ExampleScene_Day.unity using Guid(44369ae63d6995c47a91064a65452fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afa7516a74444701b5d36d7241145b6') in 0.002831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.639416 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures
-  artifactKey: Guid(47685b6a92aff0c42a054b878fcf2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures using Guid(47685b6a92aff0c42a054b878fcf2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f56d07c8f9757a8135a40dea1c57a9b') in 0.003490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.506321 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack
-  artifactKey: Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack using Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2da9dee8c9bb264e7cfc0801be9ed8') in 0.002620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.590360 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art
-  artifactKey: Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art using Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83425f14ca7c8a82c2b67f07f5aeca1') in 0.002452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.663052 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack
-  artifactKey: Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack using Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd98abdec07fbccc89d765fb574a82a') in 0.002451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.229198 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes
-  artifactKey: Guid(625760ea28991e347a7857c799f6610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes using Guid(625760ea28991e347a7857c799f6610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3c8e32cc55d5f87e0076bfbeebc70e') in 0.002851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.988537 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest.unity
-  artifactKey: Guid(c42c3349ba27a67499218ab0175bfde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest.unity using Guid(c42c3349ba27a67499218ab0175bfde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3408593b7cc3c496ad59ca20401dbd') in 0.003005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.368475 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/ShowcaseScene_Forest.unity
-  artifactKey: Guid(d70f72bdfb707b0438d08b6a8b7752c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/ShowcaseScene_Forest.unity using Guid(d70f72bdfb707b0438d08b6a8b7752c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476d283d8dcd0cfb21d08149ecff332e') in 0.003243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.124552 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Front.png
-  artifactKey: Guid(e34df992b7d28f94da958fdbf512e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Front.png using Guid(e34df992b7d28f94da958fdbf512e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eadbf432d6388380ec8c2e9fea2a4c9') in 0.058992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Up.png
-  artifactKey: Guid(b13097f9191fbea4cb8e8163f92cecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Up.png using Guid(b13097f9191fbea4cb8e8163f92cecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78e7a8529d8cb40bb90255988969e6f') in 0.057803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Down.png
-  artifactKey: Guid(78cb3df4c350f4a418c1456ca66027eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Down.png using Guid(78cb3df4c350f4a418c1456ca66027eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ef1c27d1cbdf645772083606330fa') in 0.043774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Back.png
-  artifactKey: Guid(eab969df3e013e24a952387b228221dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Back.png using Guid(eab969df3e013e24a952387b228221dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79a26746c349a938aa85f2d524852e1') in 0.038103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Right.png
-  artifactKey: Guid(73369e7736de2c64e9b1b82090b2b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Right.png using Guid(73369e7736de2c64e9b1b82090b2b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef05d4b1c18a2a4d07f4cdde26468d5') in 0.038518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000861 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Left.png
-  artifactKey: Guid(199c0a7995e94b747b50e31dd2ebb936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_4_Left.png using Guid(199c0a7995e94b747b50e31dd2ebb936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d50ac01aef569f06dfc50aa92e5fb1') in 0.040066 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001817 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 304.0 MB.
-System memory in use after: 304.3 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3047.
-Total: 3.724300 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.145700 ms MarkObjects: 3.108000 ms  DeleteObjects: 0.045600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 3.340300 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.165900 ms MarkObjects: 2.584300 ms  DeleteObjects: 0.091100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.453417 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Back.png
-  artifactKey: Guid(0b4c10e7708659842b8baf07a8645e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Back.png using Guid(0b4c10e7708659842b8baf07a8645e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b18d2e0f6b904de2c2bdb189d10461c') in 0.140258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Left.png
-  artifactKey: Guid(9fc1640526a5d124393e42870937536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Left.png using Guid(9fc1640526a5d124393e42870937536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd320cdde65647700f173064b65451dee') in 0.079540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_3_Back.png
-  artifactKey: Guid(ad13bcb5648966644a20254e7e412837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_3_Back.png using Guid(ad13bcb5648966644a20254e7e412837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0173323f0b7cc9eb2f2c865e4c8b1') in 0.087928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Down.png
-  artifactKey: Guid(15bcb2c66a77792409d383c0620e25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Down.png using Guid(15bcb2c66a77792409d383c0620e25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e037b54ef857cab8761eb400efd3b8e9') in 0.054434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Left.png
-  artifactKey: Guid(d4cfd00bc189ef247b1b440777a1ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Left.png using Guid(d4cfd00bc189ef247b1b440777a1ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4fab944ab624e1c2a96b960cd1a575') in 0.098917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Left.png
-  artifactKey: Guid(22acbc1a2186d734da439c453733c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Left.png using Guid(22acbc1a2186d734da439c453733c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f4d10f7d54ff93572f98aa07ee80e') in 0.072817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Front.png
-  artifactKey: Guid(3fcd59d1956e30144ba5ce2814c2a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Front.png using Guid(3fcd59d1956e30144ba5ce2814c2a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ca3a81d05416328838cd232f1be2a8') in 0.071680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Front.png
-  artifactKey: Guid(4bdef1caa6cf38d4396bfeffc6111dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Front.png using Guid(4bdef1caa6cf38d4396bfeffc6111dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520678c206473f719140b75612115a47') in 0.074504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Back.png
-  artifactKey: Guid(7188c30216c97a04f81b8c95ca34871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Back.png using Guid(7188c30216c97a04f81b8c95ca34871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ca20bb85c4b1c450b2a628a6df75c') in 0.072574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Front.png
-  artifactKey: Guid(6d2d841af89156044b963721c7faa9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Front.png using Guid(6d2d841af89156044b963721c7faa9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a2aed4f1643b0c50ba7c8d13d8e763') in 0.070190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Right.png
-  artifactKey: Guid(c75c9e75175b2ae49be2ebef92aec430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Right.png using Guid(c75c9e75175b2ae49be2ebef92aec430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddac0718d67b347159337c3bbad00304') in 0.079182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Back.png
-  artifactKey: Guid(79dea88cba8397e478535ca461fa09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Back.png using Guid(79dea88cba8397e478535ca461fa09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d0b99a4d77ea93639e9271742b2a02') in 0.076962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Back.png
-  artifactKey: Guid(fe2a04ab8f57b1043aca89bd72154362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Back.png using Guid(fe2a04ab8f57b1043aca89bd72154362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5978e68396fff8bea05edb14c8f7d5') in 0.068450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Up.png
-  artifactKey: Guid(819b572e813d5ca4b9ac623fb3132d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Up.png using Guid(819b572e813d5ca4b9ac623fb3132d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c19293819ca16a713cc068da05d256') in 0.070318 seconds 
+  path: Assets/Robot Kyle/Materials
+  artifactKey: Guid(6861731c4bb2e1646bf02c1420ca60cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Materials using Guid(6861731c4bb2e1646bf02c1420ca60cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccea5119e2f4cd8c70be7b682e1e6097') in 0.006371 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000332 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Back.png
-  artifactKey: Guid(21e6bd865559abd48b427fcaf82aedc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Back.png using Guid(21e6bd865559abd48b427fcaf82aedc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a3ba9cea0de076e0660d6052791cb9') in 0.068297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Up.png
-  artifactKey: Guid(a9bac75b9611bf443a1cee37177c75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Up.png using Guid(a9bac75b9611bf443a1cee37177c75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b1f440fa9c815a3a384d46d88287d') in 0.059435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Left.png
-  artifactKey: Guid(853fc4bf22aa80447998e3b2fcfab3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Left.png using Guid(853fc4bf22aa80447998e3b2fcfab3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff10d7b1cf9b0740754161b3ef034d1') in 0.069985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Left.png
-  artifactKey: Guid(a1ffee689dd6ed043b60fbcb912cb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Left.png using Guid(a1ffee689dd6ed043b60fbcb912cb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e613c799ffe6b96b775754355f82d268') in 0.040032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Right.png
-  artifactKey: Guid(94c2451a1d9600d45a897d27ec758feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Right.png using Guid(94c2451a1d9600d45a897d27ec758feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d41af91def3d2a29000641e6b86e76') in 0.047635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Front.png
-  artifactKey: Guid(1e7309c55cc90614dac1e8d86a592666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Front.png using Guid(1e7309c55cc90614dac1e8d86a592666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca49603ac0d520a5f3c96f97d505994d') in 0.076322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Up.png
-  artifactKey: Guid(5896ec6676604fa4a8fe953c78288c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Up.png using Guid(5896ec6676604fa4a8fe953c78288c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926196e68a1243dcc840b7994d61b185') in 0.065481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Right.png
-  artifactKey: Guid(445293deab33a014b96f90a8a4203d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Right.png using Guid(445293deab33a014b96f90a8a4203d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73856b0c2696864bd2a8ce475813fdee') in 0.065828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Down.png
-  artifactKey: Guid(d874fe838b5422145bec0d4959820d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Down.png using Guid(d874fe838b5422145bec0d4959820d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6fa11b8e59079f3ff648935012f28b') in 0.063596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Up.png
-  artifactKey: Guid(cc751b1b8f6d4644e91243f7a16b0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Up.png using Guid(cc751b1b8f6d4644e91243f7a16b0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c4f792ab8893e63666346c6c064713') in 0.062983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Right.png
-  artifactKey: Guid(d5d13c1a2d386f7498a871b940fcccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Right.png using Guid(d5d13c1a2d386f7498a871b940fcccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1273b07f517c2f455f4ff950ca1d5353') in 0.055719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Right.png
-  artifactKey: Guid(0cf55d85ffeff7a4f8ac1090d8b4858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Right.png using Guid(0cf55d85ffeff7a4f8ac1090d8b4858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b359819bc4f367f58a087a486f1586') in 0.064236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Front.png
-  artifactKey: Guid(d45adb34f6039914ba073ed126d44c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Front.png using Guid(d45adb34f6039914ba073ed126d44c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e713076924122380b2d1bfa6254bfc1') in 0.118803 seconds 
+  path: Assets/Robot Kyle/Textures/Robot_Color.tga
+  artifactKey: Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e360bd4c443a02fc7201602808e771d') in 0.097631 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000369 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Down.png
-  artifactKey: Guid(16167da654ac93d488c673fa615b562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Down.png using Guid(16167da654ac93d488c673fa615b562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eca03261300521a6917ff7b3dd0b027') in 0.079060 seconds 
+  path: Assets/Robot Kyle/Textures/Robot_Normal.tga
+  artifactKey: Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c763f4f7eb020b9d02f2bc3b13311774') in 0.037935 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_3_Down.png
-  artifactKey: Guid(9102c29c1b5abdb448851c3dc81b00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_3_Down.png using Guid(9102c29c1b5abdb448851c3dc81b00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f59b818dbe93ac167dd5e1d4c27647') in 0.065341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Front.png
-  artifactKey: Guid(2d5b31659fdfd7a478a9f69fa7aee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Front.png using Guid(2d5b31659fdfd7a478a9f69fa7aee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cc809762ef5190712fd7d73b10fea0') in 0.062371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Down.png
-  artifactKey: Guid(d734e56fccac7b440906565ce1feb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Down.png using Guid(d734e56fccac7b440906565ce1feb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22678c9d50c633298cefe079c8d5f5da') in 0.066032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Down.png
-  artifactKey: Guid(9f3ce1daa739533458a9400e315b4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Down.png using Guid(9f3ce1daa739533458a9400e315b4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ba7572e9057271d266c18fa0703ce3') in 0.073465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Left.png
-  artifactKey: Guid(831849b194cc1c1478baeb9faf601337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Left.png using Guid(831849b194cc1c1478baeb9faf601337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ba34492451a3a80c27de711d1654c4') in 0.063855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Left.png
-  artifactKey: Guid(1b698a5ce5b94744fa882436620f7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Left.png using Guid(1b698a5ce5b94744fa882436620f7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50abfd85a4e3d380f3d03eb4e2dabb9e') in 0.060931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Front.png
-  artifactKey: Guid(f6ffe190051ebb2408050947a05e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Front.png using Guid(f6ffe190051ebb2408050947a05e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b073520034c56dc872993122e26312e5') in 0.067185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Back.png
-  artifactKey: Guid(ccd1d0380b5f1a7488867a0eb823e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Back.png using Guid(ccd1d0380b5f1a7488867a0eb823e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39009ae32fa3f45a2158f121a706c2b7') in 0.060570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Up.png
-  artifactKey: Guid(d7cd026602490e84792df7d42d2f6be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Up.png using Guid(d7cd026602490e84792df7d42d2f6be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490a29d7b29d82f214aac7f6d1057978') in 0.063413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Front.png
-  artifactKey: Guid(b5eaac8dcccd0ba4fb10c9ef95f90959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Front.png using Guid(b5eaac8dcccd0ba4fb10c9ef95f90959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c37f64eaad96e753abcff92a4799bf2') in 0.064199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Right.png
-  artifactKey: Guid(548bac84b050e724db90ac4158bf3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Right.png using Guid(548bac84b050e724db90ac4158bf3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98232e3a4921cee9f5c741417b0d2f59') in 0.062036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Down.png
-  artifactKey: Guid(28f82da8c130f954d9897d8f852090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_9_Down.png using Guid(28f82da8c130f954d9897d8f852090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9db8cdc508789858c08b4b56ad7bd4') in 0.061806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Right.png
-  artifactKey: Guid(dbd18e7ac7e59854ea566f0a6efcefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Right.png using Guid(dbd18e7ac7e59854ea566f0a6efcefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c410ac2825d8050b24a65a13d2685463') in 0.061527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Back.png
-  artifactKey: Guid(ab854c47c1ed7af43821b7021bc88c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_8_Back.png using Guid(ab854c47c1ed7af43821b7021bc88c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb9dc48d95ce75d1af552c5be3d776b') in 0.058308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Up.png
-  artifactKey: Guid(5fec9f370b4cca3458a022a86d7384c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Up.png using Guid(5fec9f370b4cca3458a022a86d7384c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad4380dc713b71bc9f2bc27c8f6f5f9') in 0.061263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Up.png
-  artifactKey: Guid(e7c0572f40f9a3648a9c7ab6968064f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Up.png using Guid(e7c0572f40f9a3648a9c7ab6968064f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9938cfc4b43fb4ff80a76e7ceaf9a55d') in 0.060009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000659 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Back.png
-  artifactKey: Guid(3b064dc6c11f11a4cb097e4d68c8f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_2_Back.png using Guid(3b064dc6c11f11a4cb097e4d68c8f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89d7a31512deef9eb1f7dd7d4792ca5') in 0.058672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Up.png
-  artifactKey: Guid(00c55e3e1e3e27a4f8e847c948aede9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Up.png using Guid(00c55e3e1e3e27a4f8e847c948aede9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b84e23e024199811a945d66d07111f') in 0.061813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000816 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Right.png
-  artifactKey: Guid(7af09ec5379940740a865f572011ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Right.png using Guid(7af09ec5379940740a865f572011ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a609369f68b2fa2bb450f400896341e9') in 0.057493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Front.png
-  artifactKey: Guid(6d505c5d997aef142aa73ce31dc64bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_1_Front.png using Guid(6d505c5d997aef142aa73ce31dc64bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add997c8845f2375ecd0c494f1ce069a') in 0.057970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Back.png
-  artifactKey: Guid(bc9bd75222056744e9c8a7cec714188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_5_Back.png using Guid(bc9bd75222056744e9c8a7cec714188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f2d0f5539b9b0f6eaf7084bf0007d2') in 0.058535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Right.png
-  artifactKey: Guid(49515a967729cdb489d83a1cad415d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Right.png using Guid(49515a967729cdb489d83a1cad415d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed41aba90d6213327b45370b74c1e82') in 0.059353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Left.png
-  artifactKey: Guid(ed58e1bf3ae46f54d8b07a8d8ea8b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_7_Left.png using Guid(ed58e1bf3ae46f54d8b07a8d8ea8b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef426e7f4f6dd886085cf093210edafe') in 0.059750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Up.png
-  artifactKey: Guid(34fe2d1d984b4f84395f4ca160998f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Up.png using Guid(34fe2d1d984b4f84395f4ca160998f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb339924f47706d3edd43063b35611') in 0.062639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Left.png
-  artifactKey: Guid(20d84096e9f892849a2c05d051f97726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Left.png using Guid(20d84096e9f892849a2c05d051f97726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720f322fb3c2a112dcf3cbb28f4c5ce5') in 0.061637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Down.png
-  artifactKey: Guid(7a2a0f2b0f8663449974ee357474b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Night_1_Down.png using Guid(7a2a0f2b0f8663449974ee357474b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d2d518046a71dbd6a2970ad1434aa4') in 0.058823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Down.png
-  artifactKey: Guid(8a6c931e0837cd24e84af4821a1fdc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_2_Down.png using Guid(8a6c931e0837cd24e84af4821a1fdc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c9ae6a7eb87d874b133f42875a5feb') in 0.095673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Down.png
-  artifactKey: Guid(836d63b56f3541646a866d34df22b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DramaticSkies_SkyboxCollection/Skybox_Textures/Sky_Day_6_Down.png using Guid(836d63b56f3541646a866d34df22b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09b9afa068aebbf644e2c564986f0c4') in 0.074996 seconds 
+  Time since last request: 0.000325 seconds.
+  path: Assets/Robot Kyle/Model
+  artifactKey: Guid(9730ccd9b925e074f8826b3503de58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Kyle/Model using Guid(9730ccd9b925e074f8826b3503de58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5811bcde0b624456fec54169e5f1f0c5') in 0.002456 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001480 seconds.
+Registered in 0.000803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[E:\unity\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[E:\unity\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 326.1 MB.
-System memory in use after: 326.3 MB.
+Unloading 2338 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.0 MB.
+System memory in use after: 212.2 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3834.
-Total: 3.387700 ms (FindLiveObjects: 0.725200 ms CreateObjectMapping: 0.264800 ms MarkObjects: 2.375500 ms  DeleteObjects: 0.020500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 2.075100 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.111200 ms MarkObjects: 1.719600 ms  DeleteObjects: 0.014100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.683039 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest
-  artifactKey: Guid(a5515cfbf0facfa46bf21d3875d990e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest using Guid(a5515cfbf0facfa46bf21d3875d990e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82fafe29f144dfaf2c23c2a69c9d325') in 0.006726 seconds 
+  Time since last request: 767.792681 seconds.
+  path: Assets/test_WTF.shader
+  artifactKey: Guid(991e8bb2f80b0d248824b7eea0117f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test_WTF.shader using Guid(991e8bb2f80b0d248824b7eea0117f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bffe8f1c757003e36d32a0af074e5c') in 0.018381 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.671273 seconds.
-  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest/Global Volume Profile 1.asset
-  artifactKey: Guid(de8fd2549fb9ea94d807597c5b5dccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Scenes/DemoScene_Forest/Global Volume Profile 1.asset using Guid(de8fd2549fb9ea94d807597c5b5dccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71f9ec43a65570ca1a655e1bae331db') in 0.024223 seconds 
+  Time since last request: 460.495142 seconds.
+  path: Assets/URP_testbed/shaders
+  artifactKey: Guid(fefcc1f6f1a702049a4881fa64f229be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders using Guid(fefcc1f6f1a702049a4881fa64f229be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558048eb5c9e797d252ce96702b8429') in 0.002915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.792765 seconds.
+  path: Assets/URP_testbed/shaders/unlit.shader
+  artifactKey: Guid(ea145788838dc5f4e880d782e141a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/unlit.shader using Guid(ea145788838dc5f4e880d782e141a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a070fadda10ad87afaafa35b2c097') in 0.005562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.577343 seconds.
+  path: Assets/URP_testbed/testbed_scens.unity
+  artifactKey: Guid(8c1004a595d7dc44ea151b156f0d6927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/testbed_scens.unity using Guid(8c1004a595d7dc44ea151b156f0d6927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ee467e2192ed0bebfee3a04099523b') in 0.002983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.998680 seconds.
+  path: Assets/URP_testbed/Textures
+  artifactKey: Guid(9dd4c01f9ed6a224dba575b7e852091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/Textures using Guid(9dd4c01f9ed6a224dba575b7e852091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cda48dd6b4cd64e0b7a3fe4a8cc4654') in 0.002908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.168444 seconds.
+  path: Assets/URP_testbed/shaders/unlit.shader
+  artifactKey: Guid(ea145788838dc5f4e880d782e141a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/unlit.shader using Guid(ea145788838dc5f4e880d782e141a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3568fb2771fa6da37f558cfaa63f1736') in 0.004227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.441342 seconds.
+  path: Assets/URP_testbed/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183ecb50afead93d99392624ab375ab7') in 0.739518 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
