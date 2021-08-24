@@ -286,9 +286,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UWP.Extensions">
-        <HintPath>D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:/20200728/fuck_shader/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>

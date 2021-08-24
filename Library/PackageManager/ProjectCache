@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637654195978990439
-    m_Hash: 3688996222
+      ticks: 637653978572901279
+    m_Hash: 3467664184
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     D:/20200728/fuck_shader/Packages/com.unity.render-pipelines.universal@11.0.0/package.json:
@@ -23,8 +23,8 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637654195978980061
-      m_Hash: 2121210875
+        ticks: 637549037160000000
+      m_Hash: 1253915847
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/20200728/fuck_shader/Packages
