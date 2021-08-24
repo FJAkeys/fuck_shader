@@ -305,8 +305,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/ShaderLibrary/Deprecated.cs"
-"Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/ShaderLibrary/ShaderTypes.cs"
+"Packages/com.unity.render-pipelines.universal@11.0.0/ShaderLibrary/Deprecated.cs"
+"Packages/com.unity.render-pipelines.universal@11.0.0/ShaderLibrary/ShaderTypes.cs"
 -langversion:8.0
 
 /deterministic
@@ -319,4 +319,3 @@
 /nowarn:0649
 /utf8output
 /preferreduilang:en-US
--warn:0

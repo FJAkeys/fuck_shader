@@ -1,4 +1,4 @@
-Shader "URP/custom/fuck_unlitTexture"
+Shader "URP/custom/fuck_unlit"
 {
     Properties
     {
