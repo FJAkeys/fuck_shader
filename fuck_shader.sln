@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Searcher.Editor", "Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{fa7c2739-3daf-5414-062b-8719ec41becb}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{e265dcbe-4afd-bce7-32ea-dde1642aeba2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics.Editor", "Unity.Mathematics.Editor.csproj", "{78261122-8795-606c-0270-4c4f7553965f}"
 EndProject
 Global
@@ -56,6 +58,8 @@ Global
 		{67b531d0-f5e7-e6d9-e8f3-9553a2297b32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fa7c2739-3daf-5414-062b-8719ec41becb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fa7c2739-3daf-5414-062b-8719ec41becb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e265dcbe-4afd-bce7-32ea-dde1642aeba2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e265dcbe-4afd-bce7-32ea-dde1642aeba2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78261122-8795-606c-0270-4c4f7553965f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78261122-8795-606c-0270-4c4f7553965f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

@@ -1,4 +1,4 @@
-Shader "URP/custom/fuck_unlit"
+Shader "Keys/unlit"
 {
     Properties
     {
@@ -28,6 +28,7 @@ Shader "URP/custom/fuck_unlit"
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+
             
             struct Attributes
             {
@@ -58,5 +59,7 @@ Shader "URP/custom/fuck_unlit"
             }
             ENDHLSL
         }
+        		
+			
     }
 }

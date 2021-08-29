@@ -1,8 +1,4 @@
-﻿// Example Shader for Universal RP
-// Written by @Cyanilux
-// https://www.cyanilux.com/tutorials/urp-shader-code
-
-Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
+﻿Shader "Keys/lambert" {
 	Properties {
 		_BaseMap ("Example Texture", 2D) = "white" {}
 		_BaseColor ("Example Colour", Color) = (0, 0.66, 0.73, 1)
@@ -17,6 +13,7 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 		}
 
 		HLSLINCLUDE
+			
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
 			CBUFFER_START(UnityPerMaterial)
@@ -24,6 +21,7 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 			float4 _BaseColor;
 			float _Cutoff;
 			CBUFFER_END
+		
 		ENDHLSL
 
 		Pass {
@@ -34,7 +32,6 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 			#pragma vertex LitPassVertex
 			#pragma fragment LitPassFragment
 
-			// Material Keywords
 			#pragma shader_feature_local _NORMALMAP
 			#pragma shader_feature_local_fragment _ALPHATEST_ON
 			#pragma shader_feature_local_fragment _ALPHAPREMULTIPLY_ON
@@ -46,21 +43,18 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 			#pragma shader_feature_local_fragment _SPECULARHIGHLIGHTS_OFF
 			#pragma shader_feature_local_fragment _ENVIRONMENTREFLECTIONS_OFF
 			#pragma shader_feature_local_fragment _SPECULAR_SETUP
-			#pragma shader_feature_local _RECEIVE_SHADOWS_OFF
+			//#pragma shader_feature_local _RECEIVE_SHADOWS_OFF
 
-			// URP Keywords
-			//#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
-			//#pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
-			// Note, v11 changes this to :
+
 		    #pragma multi_compile _ _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN
 
 			#pragma multi_compile _ _SHADOWS_SOFT
 			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
 			#pragma multi_compile_fragment _ _ADDITIONAL_LIGHT_SHADOWS
-			#pragma multi_compile _ LIGHTMAP_SHADOW_MIXING // v10+ only, renamed from "_MIXED_LIGHTING_SUBTRACTIVE"
-			#pragma multi_compile _ SHADOWS_SHADOWMASK // v10+ only
+			#pragma multi_compile _ LIGHTMAP_SHADOW_MIXING 
+			#pragma multi_compile _ SHADOWS_SHADOWMASK
 
-			// Unity Keywords
+
 			#pragma multi_compile _ LIGHTMAP_ON
 			#pragma multi_compile _ DIRLIGHTMAP_COMBINED
 			#pragma multi_compile_fog
@@ -68,10 +62,9 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 			// GPU Instancing (not supported)
             //#pragma multi_compile_instancing
 
-			// Includes
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
-			// Structs
+
 			struct Attributes {
 				float4 positionOS	: POSITION;
 				float4 normalOS		: NORMAL;
@@ -88,7 +81,7 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 				float4 color		: COLOR;
 			};
 
-			// Textures, Samplers & Global Properties
+
 			TEXTURE2D(_BaseMap);
 			SAMPLER(sampler_BaseMap);
 
@@ -128,12 +121,13 @@ Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
 				Light mainLight = GetMainLight(shadowCoord);
 				half3 attenuatedLightColor = mainLight.color * (mainLight.distanceAttenuation * mainLight.shadowAttenuation);
 
+
 				// Mix Realtime & Baked (if LIGHTMAP_SHADOW_MIXING / _MIXED_LIGHTING_SUBTRACTIVE is enabled)
 				MixRealtimeAndBakedGI(mainLight, IN.normalWS, bakedGI);
 
 				// Diffuse
-				//half3 shading = bakedGI + LightingLambert(attenuatedLightColor, mainLight.direction, IN.normalWS);
-                half3 shading = bakedGI + attenuatedLightColor * saturate(dot(IN.normalWS, mainLight.direction) * 0.5 + 0.5);
+				half3 shading = bakedGI + LightingLambert(attenuatedLightColor, mainLight.direction, IN.normalWS);
+
 				half4 color = baseMap * _BaseColor * IN.color;
 				return half4(color.rgb * shading, color.a);
 			}
