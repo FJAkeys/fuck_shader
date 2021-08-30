@@ -1,8 +1,6 @@
-﻿// Example Shader for Universal RP
-// Written by @Cyanilux
-// https://www.cyanilux.com/tutorials/urp-shader-code
-
-Shader "Cyanilux/URPTemplates/DiffuseLitShaderExample" {
+﻿
+Shader "Keys/lambert" 
+{
 	Properties {
 		_BaseMap ("Example Texture", 2D) = "white" {}
 		_BaseColor ("Example Colour", Color) = (0, 0.66, 0.73, 1)
