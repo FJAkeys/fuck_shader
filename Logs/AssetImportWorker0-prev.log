@@ -15,11 +15,11 @@ D:/20200728/fuck_shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55464
+51631
 Successfully changed project path to: D:/20200728/fuck_shader
 D:/20200728/fuck_shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 250.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
 [Subsystems] Discovering subsystems at path D:/unity/2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,132 +36,42 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.1.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021911 seconds.
+Registered in 0.003959 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.210 seconds
+- Completed reload, in  1.352 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001486 seconds.
+Registered in 0.001799 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
+- Completed reload, in  1.011 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2460 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.4 MB.
-System memory in use after: 218.6 MB.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.3 MB.
+System memory in use after: 221.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2959.
-Total: 31.190900 ms (FindLiveObjects: 3.114300 ms CreateObjectMapping: 0.204600 ms MarkObjects: 12.811400 ms  DeleteObjects: 15.058000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 13.730700 ms (FindLiveObjects: 0.898800 ms CreateObjectMapping: 0.101000 ms MarkObjects: 11.075700 ms  DeleteObjects: 1.653400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/URP_testbed/toontest2/StylizedSurface/TerrainLitAdd_DR.shader
-  artifactKey: Guid(1dadb9806728143bfafa4261c249e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest2/StylizedSurface/TerrainLitAdd_DR.shader using Guid(1dadb9806728143bfafa4261c249e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c660ab92a9162621fb1761dc9587adf0') in 0.100324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004833 seconds.
-  path: Assets/URP_testbed/toontest2/StylizedSurface/StylizedSurface.shader
-  artifactKey: Guid(bee44b4a58655ee4cbff107302a3e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest2/StylizedSurface/StylizedSurface.shader using Guid(bee44b4a58655ee4cbff107302a3e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44be3197b60828fbde00be81a6ada9c') in 0.002101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.294755 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
-  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec99e2a09f288f1062a9f9ec3e3b8b51') in 0.027240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 193.694813 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shadergraph
-  artifactKey: Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shadergraph using Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63fbf35c0ccf66bbb6cc8b8740f71ea') in 0.004961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.149211 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shadergraph
-  artifactKey: Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shadergraph using Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac09cd0fcb4154091972550966647813') in 0.003558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 263.512498 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shadergraph
-  artifactKey: Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shadergraph using Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240c2fe3ada5ddb8fe5d0fd2f0a84b37') in 0.002759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.439325 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shadergraph
-  artifactKey: Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shadergraph using Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52cbd4adfc11f50518e6181acd1c594') in 0.003712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 168.070353 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e013e39fd1fad79eb6b7e15db89798') in 0.002953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.047944 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616855b6de8679a7725aba0a09082551') in 0.004548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.325821 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dde999ca3d4ddd8e82fd9e04b73acb') in 0.004991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 173.086879 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a017998bb4e9f50291c0c5ef102eebc') in 0.004185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 242.067305 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shadergraph
-  artifactKey: Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shadergraph using Guid(882801db51377fd4890fb14ccbf4d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76880efbd3c034668f84c3f898810e2') in 0.007087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.680047 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7c8bdff98e7832a1537afe8427c216') in 0.005502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 521.298091 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f90da476af03a8b4735fd2b02264ff') in 0.004604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 502.368524 seconds.
-  path: Assets/URP_testbed/toontest/LitToon.shader
-  artifactKey: Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/toontest/LitToon.shader using Guid(c3375e0e5df5cc14d8e8f3d6b6c98a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b6dbbf4222e539475a4afe7c2642a') in 0.004232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1319.417358 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(36788642c3b44bb4b9f2985a6fd28317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(36788642c3b44bb4b9f2985a6fd28317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2a988e9b9be2500173cac20652df1b') in 0.012608 seconds 
+  path: Assets/URP_testbed/shaders/toy.shader
+  artifactKey: Guid(ef8421578b1c6914f93ad81b5df0818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/toy.shader using Guid(ef8421578b1c6914f93ad81b5df0818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e59b3e2e59d9757a9c917a66b6023a') in 0.083918 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -15,11 +15,11 @@ D:/20200728/fuck_shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60161
+58246
 Successfully changed project path to: D:/20200728/fuck_shader
 D:/20200728/fuck_shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
 [Subsystems] Discovering subsystems at path D:/unity/2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,186 +36,102 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.1.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002379 seconds.
+Registered in 0.004367 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
+- Completed reload, in  1.270 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000814 seconds.
+Registered in 0.001660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
+- Completed reload, in  1.081 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2460 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 219.3 MB.
-System memory in use after: 219.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2961.
-Total: 3.375600 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.182100 ms MarkObjects: 2.736800 ms  DeleteObjects: 0.116800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/URP_testbed/shaders/lambert.shader
-  artifactKey: Guid(3acd5634733e8064798dbb68aa4471e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/lambert.shader using Guid(3acd5634733e8064798dbb68aa4471e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdb24a660e8ad5ebd339757c927d812') in 0.058457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.440993 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36717cda96acf843aea2a9e2196c1e2') in 0.010241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.835504 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835996d4f935c4416e3e607e107665d4') in 0.004300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 776.814753 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f527973c3a85c349fd012f96303560') in 0.004551 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.4 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2964.
-Total: 2.424000 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.982800 ms  DeleteObjects: 0.107400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.486138 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986bb5bd405afb1f1a9390aebc0dc240') in 0.021375 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000938 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.4 MB.
-System memory in use after: 211.5 MB.
+Unloading 2463 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.6 MB.
+System memory in use after: 221.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2967.
-Total: 2.344600 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.083100 ms MarkObjects: 1.921300 ms  DeleteObjects: 0.101000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2964.
+Total: 2.648300 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.191100 ms  DeleteObjects: 0.096900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1680.181693 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01050dc31370e53e671f69851882cc3c') in 0.022768 seconds 
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5140b1951206b7ba99cd6121fd813805') in 0.055601 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.131013 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140a36cda945104470cf8fbc86a2905f') in 0.003832 seconds 
+  Time since last request: 0.000374 seconds.
+  path: Assets/URP_testbed/Materials/halflambert.mat
+  artifactKey: Guid(145b63a0518034d4fa96235b1ddb3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/Materials/halflambert.mat using Guid(145b63a0518034d4fa96235b1ddb3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0666ed27db33065cb1a2ac28c61dee0f') in 0.208759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 123.087956 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132e54a1938e4cdb17cb371a4809d79d') in 0.005357 seconds 
+  Time since last request: 0.000360 seconds.
+  path: Assets/URP_testbed/Materials/orennayer.mat
+  artifactKey: Guid(adc770722415a1144a5129ccebccd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/Materials/orennayer.mat using Guid(adc770722415a1144a5129ccebccd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e3f85982cb390ae992cc7e55057d0') in 0.014895 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.048368 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149dc1c6105f3ff58589adc2e4b35060') in 0.005383 seconds 
+  Time since last request: 0.000275 seconds.
+  path: Assets/URP_testbed/Materials/toy.mat
+  artifactKey: Guid(94adfe39d11ff6346b39be37d94f13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/Materials/toy.mat using Guid(94adfe39d11ff6346b39be37d94f13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f43ae30c02645bc70dfdfed8bdb132') in 0.012693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.373000 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72136f898f13f3eb1a76a6094fad5748') in 0.003961 seconds 
+  Time since last request: 121.380122 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8153ea843e2d34d241837fe1ef285c25') in 0.003113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.659937 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7379ac7026d723a60857e71e6f92bb6c') in 0.004005 seconds 
+  Time since last request: 541.664751 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f37735bc5ffd8eb87c9556d632e3bf0') in 0.003442 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.039929 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd61cfad0a21a2178d3511ccedfc3d5') in 0.004751 seconds 
+  Time since last request: 1121.498350 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8068a04cf523adcddb14378de406084') in 0.002869 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.690899 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264abcba9e3bdea27dcf2b09b907d7e5') in 0.003968 seconds 
+  Time since last request: 34.146042 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca29d8c0d869a7cf8e926c05988ba075') in 0.003069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.467189 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4d4ace59bcec68c7d81334bcec9b7a') in 0.003536 seconds 
+  Time since last request: 30.851018 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b897e104081a2e85ef12df2de0332') in 0.003149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.294966 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afda6604501fc59f30d50779232c013') in 0.004571 seconds 
+  Time since last request: 20.238235 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561dfb1f95791bb1dbf75bdc706f2e7c') in 0.002933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.960665 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a473f5e91c459ef1b29bcaf0909a899') in 0.004222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.413521 seconds.
-  path: Assets/URP_testbed/shaders/testhalflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/testhalflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ee977c20d6724d7d5e14f796e79dd4') in 0.004236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.955959 seconds.
-  path: Assets/URP_testbed/shaders/halflambert.shader
-  artifactKey: Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/halflambert.shader using Guid(95186fc70d65bca42b557f523d189b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9253fd78050186e12c28e67130bbde3') in 0.004103 seconds 
+  Time since last request: 17.148808 seconds.
+  path: Assets/URP_testbed/shaders/orennayer.shader
+  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abf129b57460ad022940d51b1fb18e2') in 0.003265 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
