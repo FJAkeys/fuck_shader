@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/china_unity/release' branch; Version is '2021.1.5f1c1 (6e5a93ddf9be) revision 7232147'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'zh' Physical Memory: 7967 MB
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 7967 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/20200728/fuck_shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58246
+49879
 Successfully changed project path to: D:/20200728/fuck_shader
 D:/20200728/fuck_shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 93.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
 [Subsystems] Discovering subsystems at path D:/unity/2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -30,108 +30,43 @@ Direct3D:
     Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
     Vendor:   Intel
     VRAM:     3983 MB
-    Driver:   27.20.100.8935
+    Driver:   27.20.100.9664
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'D:/unity/2021.1.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004367 seconds.
+Registered in 0.002484 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 520.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.386 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001660 seconds.
+Registered in 0.001028 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  0.994 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2463 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.6 MB.
-System memory in use after: 221.8 MB.
+System memory in use before: 219.9 MB.
+System memory in use after: 220.1 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2964.
-Total: 2.648300 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.191100 ms  DeleteObjects: 0.096900 ms)
+Total: 2.330300 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.084400 ms MarkObjects: 1.907000 ms  DeleteObjects: 0.106000 ms)
 
-========================================================================
-Received Import Request.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5140b1951206b7ba99cd6121fd813805') in 0.055601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/URP_testbed/Materials/halflambert.mat
-  artifactKey: Guid(145b63a0518034d4fa96235b1ddb3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/Materials/halflambert.mat using Guid(145b63a0518034d4fa96235b1ddb3cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0666ed27db33065cb1a2ac28c61dee0f') in 0.208759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/URP_testbed/Materials/orennayer.mat
-  artifactKey: Guid(adc770722415a1144a5129ccebccd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/Materials/orennayer.mat using Guid(adc770722415a1144a5129ccebccd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e3f85982cb390ae992cc7e55057d0') in 0.014895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/URP_testbed/Materials/toy.mat
-  artifactKey: Guid(94adfe39d11ff6346b39be37d94f13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/Materials/toy.mat using Guid(94adfe39d11ff6346b39be37d94f13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f43ae30c02645bc70dfdfed8bdb132') in 0.012693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 121.380122 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8153ea843e2d34d241837fe1ef285c25') in 0.003113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 541.664751 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f37735bc5ffd8eb87c9556d632e3bf0') in 0.003442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1121.498350 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8068a04cf523adcddb14378de406084') in 0.002869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.146042 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca29d8c0d869a7cf8e926c05988ba075') in 0.003069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.851018 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b897e104081a2e85ef12df2de0332') in 0.003149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.238235 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561dfb1f95791bb1dbf75bdc706f2e7c') in 0.002933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.148808 seconds.
-  path: Assets/URP_testbed/shaders/orennayer.shader
-  artifactKey: Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP_testbed/shaders/orennayer.shader using Guid(9755217d44eea1842976af166da287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abf129b57460ad022940d51b1fb18e2') in 0.003265 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
